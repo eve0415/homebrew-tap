@@ -1,28 +1,28 @@
 class Cella < Formula
   desc "Dev containers reinvented"
   homepage "https://github.com/eve0415/cella"
-  version "0.10.0"
+  version "0.10.1"
   license "GPL-3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/eve0415/cella/releases/download/v0.10.0/cella-v0.10.0-aarch64-apple-darwin.tar.gz"
-      sha256 "36599c8450804ba11c1cc08b4172b7da5f545adecc575f2cd7a62dbd47a61622"
+      url "https://github.com/eve0415/cella/releases/download/v0.10.1/cella-v0.10.1-aarch64-apple-darwin.tar.gz"
+      sha256 "9857f3204dc3cee5622448c98a219d189bfb77cd956eb9843485cdfa2ab4d1ce"
     end
     on_intel do
-      url "https://github.com/eve0415/cella/releases/download/v0.10.0/cella-v0.10.0-x86_64-apple-darwin.tar.gz"
-      sha256 "52a8aa9c2ac65a34ab342d30727f75ce15ed8fb59f07c1acff60b86a6d5ff9f8"
+      url "https://github.com/eve0415/cella/releases/download/v0.10.1/cella-v0.10.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0cb92fe691367a19ba3f3d90a15ba4ae732f08fc4214118cfaf933cfa3998a0b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eve0415/cella/releases/download/v0.10.0/cella-v0.10.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "162f5af1ad79f3df9785b92d5b7945ff69d9b5a6f1bb1c3effd300c975cd4823"
+      url "https://github.com/eve0415/cella/releases/download/v0.10.1/cella-v0.10.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "47b9d0aeb3f47d04700605e699587a1df12c47ff181c7df81c232e33c2fd2d9c"
     end
     on_intel do
-      url "https://github.com/eve0415/cella/releases/download/v0.10.0/cella-v0.10.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fc0a2697f00de85ba970f366ddce8829553ff19840a92d76fe4a77007380a6dc"
+      url "https://github.com/eve0415/cella/releases/download/v0.10.1/cella-v0.10.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ad71fdff5373566fed29102c2d9c87dd4e5f107ac8d202aeb9b2b17c414e6e91"
     end
   end
 
